@@ -1,0 +1,263 @@
+:root {
+    --w: #ffffff ;
+    --db: #232838 ;
+    --g: #00ff55 ;
+    --lb: #3d4051 ;
+}
+
+body {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   background-color: var(--db);
+   padding-left: 0;
+   margin: 0;
+}
+
+@font-face {
+   font-family: futura-pt;
+   src: url(../Fonts/FuturaPTDemi.otf);
+}
+
+@font-face {
+   font-family: mont;
+   src: url(../Fonts/HindSiliguri-Regular.ttf);
+}
+
+h1{
+   font-family: futura-pt, sans-serif;
+   color: var(--w);
+   font-size: 200%;
+   text-align: start;
+}
+
+p{
+   font-family: futura-pt, sans-serif;
+   color: var(--w);
+   font-size: 200%;
+   text-align: start;
+}
+
+h2 {
+   font-family: futura-pt, sans-serif;
+   color: var(--w);
+   font-size: medium;
+   text-align: start;
+}
+
+h3 {
+   font-family: futura-pt, sans-serif;
+   color: var(--w);
+   font-size: medium;
+   text-align: start;
+   margin-bottom: 2%;
+   letter-spacing: 1px;
+
+}
+
+h4 {
+   font-family: mont, sans-serif;
+   color: var(--w);
+   font-size: small;
+   text-align: start;
+   letter-spacing: 1px;
+
+
+}
+
+.navbar {
+   width: 100%;
+   height: auto;
+   background-color: var(--db);
+   display: flex;
+   flex-direction: row;
+
+}
+
+.navbar li {
+   list-style: none;
+   width: 100%;
+   padding: 2%;
+   cursor: pointer;
+}
+
+.navbar li a {
+   font-family: futura-pt, sans-serif;
+   text-decoration: none;
+   color: var(--w);
+   border-radius: 4px;
+   padding-left: 6px;
+   padding-right: 6px;
+}
+
+.navbar li :hover {
+
+   background-color: var(--g);
+   color: var(--db);
+
+}
+
+.navbar li :focus {
+   
+   background-color: var(--g);
+   color: var(--db);
+
+}
+
+
+.home {
+   background-color: var(--db);
+   width: 90%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding-left: 10%;
+   padding-top: 10%;
+
+ 
+}
+
+.box1 {
+   width: 350px;
+   height:auto;
+   text-align: center;
+   background-image: url(../Album/mirror.jpeg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   margin-right: 20px;
+   margin-bottom: 5%;
+}
+
+.arrowbox {
+   width: 50px;
+   height: 50px;
+   background-color: var(--g);
+   margin-top: 85.5%;
+   margin-left: 85.8%;
+   cursor: pointer;
+   border-top-left-radius: 4px;
+}
+
+.arrow{
+   max-width: 100%;
+   height: auto;
+}
+
+
+
+.box2 {
+   width: 350px;
+   height: auto;
+   text-align: center;
+   margin-bottom: 5%;
+   margin-right: 5%;
+   margin-left: 5%;
+   margin-top: -3%;
+}
+
+.social {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+}
+.social a {
+   width: 8%;
+   height: auto;
+   margin-right: 20px;
+   margin-top: 20px;
+   border-radius: 3px;
+   background-color: var(--lb);
+}
+
+.social a img {
+   max-width: 100%;
+   height: auto;
+}
+
+.social a:hover {
+   background-color: var(--g);
+}
+
+.social a:focus {
+   background-color: var(--g);
+}
+.box3 {
+   width: 200px;
+   height: auto;
+   margin-top: 1%;
+   margin-left: 5%;
+
+}
+
+.container {
+   width: 90%;
+   height: auto;
+   background-color: var(--lb);
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+   margin-bottom: 20%;
+   margin-top: 5%;
+}
+
+.green {
+   background-color: var(--g);
+   width: 10%;
+   height: 100%;
+   padding-left: 16%;
+   padding-right: 16%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-family: futura-pt,sans-serif;
+   font-size: larger;
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+
+.white {
+   height: 100%;
+   min-width: 60%;
+   background-color: var(--w);
+   font-family: futura-pt,sans-serif;
+   font-size: larger;
+   padding-left: 10%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+
+.projectpage {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   background-color: var(--db);;
+}
+
+.projectpage li {
+   width: 80%;
+   height: auto;
+   list-style: none;
+   margin-left:  10%;
+}
+.projectpage li img {
+   width: 60%;
+   height: auto;
+   margin-left: 18%;
+}
+
+.projectpage li h1 {
+   text-align: center
+}
+
+h1 .timer {
+   text-align: center;
+   font-size: 60px;
+ }
+
